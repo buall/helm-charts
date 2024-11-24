@@ -2,7 +2,7 @@
 
 ## ChangeLog
 
-### 2024.11.224
+### 2024.11.24
 
 基于[bitnami/clickhouse](https://artifacthub.io/packages/helm/bitnami/clickhouse) 3.4.1 版本, 修改模板文件 `clickhouse/charts/common/templates/_labels.tpl`, 保证该文件与3.7.0版本中的 `_labels.tpl` 文件内容一致.
 
