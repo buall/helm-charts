@@ -4,6 +4,14 @@
 
 ## ChangeLog
 
+### 2024.11.25
+
+基于[cetic/nifi](https://artifacthub.io/packages/helm/cetic/nifi) 1.14 版本, 在文件 `nifi/configs/bootstrap.conf` 中新增配置：
+
+```conf
+java.arg.16=-Duser.timezone=Asia/Shanghai
+```
+
 ### 2024.11.18
 
 基于[cetic/nifi](https://artifacthub.io/packages/helm/cetic/nifi) 1.14 版本, 将:
